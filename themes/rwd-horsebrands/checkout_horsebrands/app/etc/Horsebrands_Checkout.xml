@@ -1,0 +1,8 @@
+<config>
+  <modules>
+    <Horsebrands_Checkout>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Horsebrands_Checkout>
+  </modules>
+</config>

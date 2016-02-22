@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Horsebrands_Checkout>
+            <version>1.0</version>
+        </Horsebrands_Checkout>
+    </modules>
+    <global>
+      <blocks>
+        <horsebrands_checkout>
+          <class>Horsebrands_Checkout_Block</class>
+        </horsebrands_checkout>
+      </blocks>
+
+      <models>
+        <horsebrands_checkout>
+          <class>Horsebrands_Checkout_Model</class>
+        </horsebrands_checkout>
+      </models>
+
+      <!-- get access to manufacturer and delivery information -->
+      <sales>
+        <quote>
+          <item>
+            <product_attributes>
+              <manufacturer />
+              <delivery_time />
+            </product_attributes>
+          </item>
+        </quote>
+      </sales>
+
+      <events>
+        <sales_quote_collect_totals_before>
+          <observers>
+            <!-- Set default shipping method and rate when necessary -->
+            <horsebrands_checkout_observer>
+              <type>singleton</type>
+              <class>horsebrands_checkout/observer</class>
+              <method>setQuoteShippingMethod</method>
+            </horsebrands_checkout_observer>
+          </observers>
+        </sales_quote_collect_totals_before>
+      </events>
+    </global>
+</config>

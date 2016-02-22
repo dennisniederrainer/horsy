@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Horsebrands_Customer>
+            <version>1.0</version>
+        </Horsebrands_Customer>
+    </modules>
+    <global>
+      <blocks>
+        <horsebrands_customer>
+          <class>Horsebrands_Customer_Block</class>
+        </horsebrands_customer>
+      </blocks>
+
+      <models>
+        <horsebrands_customer>
+          <class>Horsebrands_Customer_Model</class>
+        </horsebrands_customer>
+      </models>
+    </global>
+    <frontend>
+  		<routers>
+  			<customer>
+  				<args>
+  					<modules>
+  						<horsebrands_customer before="Mage_Customer">Horsebrands_Customer</horsebrands_customer>
+  					</modules>
+  				</args>
+        </customer>
+			</routers>
+	</frontend>
+</config>

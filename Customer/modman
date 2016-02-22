@@ -1,0 +1,6 @@
+app/design/rwd-horsebrands/default/layout/customer.xml    httpdocs/app/design/frontend/rwd-horsebrands/default/layout/customer.xml
+app/design/rwd-horsebrands/default/template/customer/*    httpdocs/app/design/frontend/rwd-horsebrands/default/template/customer
+app/design/rwd-horsebrands/default/template/persistent/customer/form/*    httpdocs/app/design/frontend/rwd-horsebrands/default/template/persistent/customer/form
+app/code/local/Horsebrands/Customer/controllers/AddressController.php   httpdocs/app/code/local/Horsebrands/Customer/controllers/AddressController.php
+app/code/local/Horsebrands/Customer/etc/config.xml   httpdocs/app/code/local/Horsebrands/Customer/etc/config.xml
+app/etc/modules/Horsebrands_Customer.xml   httpdocs/app/etc/modules/Horsebrands_Customer.xml

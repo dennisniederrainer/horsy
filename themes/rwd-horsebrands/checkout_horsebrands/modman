@@ -1,0 +1,6 @@
+app/design/layout/checkout.xml httpdocs/app/design/frontend/rwd-horsebrands/default/layout/checkout.xml
+app/design/template/checkout httpdocs/app/design/frontend/rwd-horsebrands/default/template/checkout
+app/design/template/persistent/checkout/onepage httpdocs/app/design/frontend/rwd-horsebrands/default/template/persistent/checkout/onepage
+app/design/template/customer/widget httpdocs/app/design/frontend/rwd-horsebrands/default/template/customer/widget
+app/code/Checkout httpdocs/app/code/local/Horsebrands/Checkout
+app/etc/Horsebrands_Checkout.xml httpdocs/app/etc/modules/Horsebrands_Checkout.xml

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Horsebrands_Customerservice>
+            <version>1.0</version>
+        </Horsebrands_Customerservice>
+    </modules>
+    <global>
+      <blocks>
+        <horsebrands_customerservice>
+          <class>Horsebrands_Customerservice_Block</class>
+        </horsebrands_customerservice>
+      </blocks>
+
+      <models>
+        <horsebrands_customerservice>
+          <class>Horsebrands_Customerservice_Model</class>
+        </horsebrands_customerservice>
+      </models>
+    </global>
+    <frontend>
+      <layout>
+        <updates>
+          <customerservice>
+              <file>customerservice.xml</file>
+          </customerservice>
+        </updates>
+    </layout>
+  		<routers>
+        <horsebrands_customerservice>
+          <use>standard</use>
+          <args>
+            <module>Horsebrands_Customerservice</module>
+            <frontName>customerservice</frontName>
+          </args>
+        </horsebrands_customerservice>
+			</routers>
+	</frontend>
+</config>

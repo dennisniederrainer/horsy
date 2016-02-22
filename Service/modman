@@ -1,0 +1,6 @@
+app/code/local/Horsebrands/Customerservice                    httpdocs/app/code/local/Horsebrands/Customerservice
+
+app/design/rwd-horsebrands/default/layout/customerservice.xml httpdocs/app/design/rwd-horsebrands/default/layout/customerservice.xml
+app/design/rwd-horsebrands/default/template/customerservice/* httpdocs/app/design/rwd-horsebrands/default/template/customerservice
+
+app/etc/modules/Horsebrands_Customerservice.xml               httpdocs/app/etc/modules/Horsebrands_Customerservice.xml
